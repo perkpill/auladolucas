@@ -1,0 +1,36 @@
+@font-face {
+    font-family:'idroid';
+    src: url(fontes/idroid.otf);
+}
+* {
+    padding:0px;
+    margin:0px;
+}
+:root{
+    --cor0:#195935;
+    --cor1:#84elad;
+    --cor2:#3DD984;
+
+
+    --fonte-android:'idroid';
+    --fonte-padrao: sans-serif;
+}
+header{
+    background-image:linear-gradient(tobottom,var(--cor2). var(var(--cor0)));
+    tex-align:center;
+    padding:50px;
+    font-size:1.5em;
+    color:
+}
+nav {
+    background-color: var(--cor0);
+}
+nav a {
+    color:
+    text-decoration:nome;
+    padding:0px 20px 0px 20px;
+}
+nav a :hover{
+    background-color:var(--cor2);
+    color:var(--cor0);
+}
