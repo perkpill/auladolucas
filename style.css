@@ -1,27 +1,38 @@
+@charset  'utf-8';
+@import url('https //fonts.googleapis.com/css2?family=bebas=neve&display=swap');
 @font-face {
     font-family:'idroid';
     src: url(fontes/idroid.otf);
 }
-* {
-    padding:0px;
-    margin:0px;
-}
+
 :root{
     --cor0:#195935;
-    --cor1:#84elad;
+    --cor1:#84e1ad;
     --cor2:#3DD984;
 
 
-    --fonte-android:'idroid';
-    --fonte-padrao: sans-serif;
+    --fonte-padrao:arial, helvetica, sans-serif;
+    --fonte-especial:'bebas neve', sansz-serif;
+    --fonte-android:'idroid', sansz-serif;
 }
+
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: var(--fonte-padrao);
+} 
+
+body{
+    background-color: var(--cor1);
+}
+
 header{
     background-image:linear-gradient(tobottom,var(--cor2). var(var(--cor0)));
-    tex-align:center;
-    padding:50px;
-    font-size:1.5em;
     color:
+    padding:50px;
+    tex-align:center;
 }
+
 nav {
     background-color: var(--cor0);
 }
