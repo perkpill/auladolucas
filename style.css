@@ -28,20 +28,54 @@ body{
 
 header{
     background-image:linear-gradient(tobottom,var(--cor2). var(var(--cor0)));
-    color:
+    color:white;
     padding:50px;
-    tex-align:center;
+    tex-align:center ;
 }
 
 nav {
     background-color: var(--cor0);
 }
-nav a {
-    color:
-    text-decoration:nome;
-    padding:0px 20px 0px 20px;
+nav {
+    color:white;
+    text-decor
+    padding:0px 20px;
 }
 nav a :hover{
     background-color:var(--cor2);
     color:var(--cor0);
+}
+nav{
+
+}
+main{
+    box-align: center;
+    background-color: white;
+    max-width: 70%;
+    margin: auto;
+}
+h1{
+    font-family: "idroid", arial, sans-serif;
+    color: #195935;
+    font-size: xx-large;
+    margin: 50px;
+}
+h2{
+    font-family:"idroid", arial, sans-serif; 
+    color:#195935;
+    font-size: xx-large;
+    background: linear-gradient(to right, #c4ead5, transparent);
+    margin: 50px;
+}
+p{
+    margin:55px;
+    font-size: medium;
+    text-indent: 15px;
+}
+img{
+    max-width: 100%;
+    height: auto;
+    display:block;
+    margin:0 auto;
+    box-sizing: border-box;
 }
